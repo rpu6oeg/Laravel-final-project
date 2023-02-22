@@ -1,0 +1,245 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.osnova-header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.osnova-header h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu-navigation>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.menu-navigation>ul>li {
+    font-weight: 550;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.registration-button {
+    padding: 15px 25px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.auth-button {
+    padding: 15px 25px;
+    border: 1px solid #1c1c1c;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.registration {
+    width: 100%;
+    margin: auto;
+}
+
+.osnova-registration {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.title__page {
+    font-size: 30px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 500px;
+    gap: 15px;
+}
+
+.registration-form > input {
+    padding: 10px 0;
+    padding-left: 20px;
+    border: 1px solid #1c1c1c;
+}
+
+.registration-form > textarea {
+    color: #1a202c;
+}
+
+.registration-form > input:hover {
+    transition: 0.3s ease;
+    margin-left: 30px;
+}
+
+.registration-form > textarea:hover {
+    transition: 0.3s ease;
+    margin-left: 30px;
+}
+
+.registration-form > select{
+    background-color: orange;
+    border: none;
+}
+
+.registration-form > select:hover {
+    transition: 0.3s ease;
+    margin-left: 30px;
+}
+
+
+.registration-form > select {
+    padding: 10px 0;
+    padding-left: 20px;
+    color: #ffffff;
+    border: 1px solid #1c1c1c;
+}
+
+.registration-form > textarea {
+    padding: 10px 0;
+    padding-left: 20px;
+    color: #ffffff;
+    border: 1px solid #1c1c1c;
+}
+
+.post {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.osnova-post {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.one-post {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-post {
+    width: 250px;
+    height: 250px;
+}
+
+.bottom-post {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title__post {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.anons__post {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.category__post {
+    font-size: 14px;
+    color: gray;
+    text-align: end;
+    padding-top: 5px;
+}
+
+.post-button {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.button__post {
+    padding: 15px 25px;
+    background-color: #1c1c1c;
+    font-size: 16px;
+    font-weight: 550;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button-post-page {
+    padding: 15px 25px;
+    background-color: #1c1c1c;
+    font-size: 16px;
+    font-weight: 550;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+}
+category_id select{
+    color: #1c1c1c;
+}
+
+
+
+
+
+
